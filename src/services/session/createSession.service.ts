@@ -34,6 +34,7 @@ const createSessionService = async ({ email, password }: IUserLogin): Promise<Ob
       id: user.id,
       name: user.name,
       email: user.email,
+      phone: user.phone,
     },
   };
 

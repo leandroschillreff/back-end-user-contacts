@@ -10,8 +10,8 @@ import AppDataSource from './data-source';
       console.error('Error during Data Source initialization', err);
     });
 
-  app.listen(3000, () => {
-    console.log('Server running on port 3000');
-    console.log('http://localhost:3000/')
+  app.listen(3001, () => {
+    console.log('Server running on port 3001');
+    console.log('http://localhost:3001/')
   });
 })();
