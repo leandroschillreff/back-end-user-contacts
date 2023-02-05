@@ -13,7 +13,8 @@
 - [Quick Start Using Docker](#4-quick-start-using-docker)
   - [Clone repository](#41-clone-this-repository)
   - [Configure .env](#42-configure-env)
-  - [Settings for running docker](#43-settings-for-running-docker)
+  - [Install the dependencies](#43-install-the-dependencies)
+  - [Settings for running docker](#44-settings-for-running-docker)
 - [Endpoints](#5-endpoints)
 
 ---
@@ -95,7 +96,14 @@ cd back-end-user-contacts
 Create an .env file in the project root, copy the contents of .env.example and add the database name, user and password information
 ```
 
-### 4.3 Settings for running docker
+
+### 4.3 Install the dependencies
+
+```text
+yarn
+```
+
+### 4.4 Settings for running docker
 
 1. To start and restart all services defined in docker-compose.yml
 

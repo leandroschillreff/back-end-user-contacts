@@ -10,8 +10,7 @@
     "build": "tsc",
     "typeorm": "typeorm-ts-node-commonjs",
     "test": "cross-env NODE_ENV=test SECRET_KEY=secret_key jest",
-    "eslint:fix": "eslint --fix",
-    "start": "node ."
+    "eslint:fix": "eslint --fix"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
